@@ -1,8 +1,16 @@
+#Fet per Jaureo
+
+#segons
 s=0
+#minuts
 m=0
+#hores
 h=0
+#dies
+d=0
+
 #Sumar i calcular
-while h < 23:
+while d == 0:
   s = s+1
   if s >= 60:
     s = 0
@@ -14,7 +22,10 @@ while h < 23:
 
   if h >= 24:
     h = 0
+  #Aquesta funcio esta aqui per aturar es bucle
+    d = d+1
 
+  #Imprimim amb zeros afegits als numeros 1,2,3,4,5,6,7,8 i 9
   def formataDos(x):
     if (x < 10):
         return '0'+ str(x)
