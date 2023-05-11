@@ -7,5 +7,5 @@ import time
 Segons = 0
 while Power == 1:
     time.sleep(1)
-    Segundos = Segons +1
+    Segons = Segons +1
     print (Segons)
