@@ -1,7 +1,5 @@
 #Encendre o apagar
-Power = 0
-if Power == 0:
-    Power = 1
+Power = 1
 #Rellotje
 import time
 Segons = 0
@@ -20,4 +18,6 @@ while Power == 1:
     if Hores == 24:
         Dia = Dia +1
         Hores = 0
+        Power = 0
+        
     print (Dia, Hores, Minuts, Segons)
